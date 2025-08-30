@@ -24,7 +24,9 @@ public class Item {
 	public int getQuantity() {
 		return quantity;
 	}
-	
-	
+
+	public double getTotalPrice() {
+		return this.unitPrice * this.quantity;
+	}
 	
 }
